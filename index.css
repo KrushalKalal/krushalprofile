@@ -451,7 +451,7 @@ body{
 
 .owl-nav .owl-prev {
     position: absolute;
-    left: -4px;
+    left: 26px;
     top:42%;
     background-color: beige !important;
     border: 2px solid black !important;
@@ -462,7 +462,7 @@ body{
   
 .owl-nav .owl-next {
     position: absolute;
-    right:-5px;
+    right:46px;
     top:42%;
     background-color: beige !important;
     border: 2px solid black !important;
@@ -615,13 +615,108 @@ textarea {
     padding: 6px;
   }
   @media only screen and (min-width: 1120px) and (max-width:1349px){
-    .about_img img {
-        margin-top: 3%;
-        height: 73vh;
+    .phone_img img {
+        margin-left: -20%;
+        margin-top: 10%;
     }
+    .about_img img {
+        margin-top: 7%;
+        height: 70vh;
+        width: 105% !important;
+    }
+    .myCard{
+        margin-top: 17.4%;
+        top: 2%;
+        left: 12%;
+    
+    }
+    .myCard img {
+        height: 155px;
+        width: 155px;
+        margin-left: 11.9%;
+    }
+    .myCard .profile_name{
+        margin-top: 10%;
+        font-size: 21px;
+        margin-left: 13%;
+        width: 100%;
+    }
+    .myCard .profile_position{
+       
+        margin-left: 12.8%;
+        width: 100%;
+        font-size: 15px;
+    }
+    .myCard .profile_contact{
+        margin-top: 8%;
+        padding: 8px;
+        width: 100%;
+        font-size: 15px;
+        margin-left: 12.5%;
+    
+    }
+    .myCard .profile_links{
+        margin-left: 17% !important;
+    }
+    .myCard .profile_links a i{
+        margin-top: 16%;
+        font-size: 20px;
+    }
+    .myCard .btn{
+        margin-top: 12%;
+        margin-left: 11%;
+        width: 100%;
+        font-size: 18px;
+    
+    }
+       .about {
+        width: 40.4% !important;
+        height: 41.8vh;
+        font-size: 18px;
+        top: 23.8%;
+        left: 47.2%;
+    }
+     .about p{
+        font-size: 21px;
+     }
  
 }
 
+@media only screen and (min-width: 1200px) and (max-width:1269px){
+    .myCard{
+      
+        left: 10.8% !important;
+    }
+    .about {
+        
+        top: 25% !important;
+        
+    }
+}
+@media only screen and (min-width: 1270px) and (max-width:1349px){
+    .myCard{
+      
+        left: 9.8% !important;
+    }
+    .about {
+        
+        top: 26% !important;
+        left: 47.5% !important;
+        
+    }
+}
+
+@media only screen and (min-width: 1050px) and (max-width:1119px){
+    .myCard{
+      
+        left: 6.2% !important;
+    }
+    .about {
+        
+        top: 29% !important;
+        
+    }
+}
   @media only screen and (min-width: 992px) and (max-width:1119px){
     .navbar {
         padding: 24px !important;
@@ -634,27 +729,90 @@ textarea {
         width: 75% !important;
     }
     .about_img img {
-        height: 71vh;
-        margin-top: 11%;
-        width: 104% !important;
+        height: 70vh;
+        margin-top: 13%;
+       width: 105% !important;
     }
     .phone_img {
         width: 25% !important;
+        margin-top: 2% !important;
     }
+    
     .phone_img img {
         margin-top: 35%;
-        height: 62vh;
+        height: 59vh;
         position: relative;
-        margin-left: -33%
+        margin-left: -48%;
+    }
+    .myCard{
+        margin-top: 17.4%;
+        top: 4%;
+        left: 7%;
+    }
+    .myCard img {
+        height: 155px;
+        width: 155px;
+        margin-left: 11.9%;
+    }
+    .myCard .profile_name{
+        margin-top: 10%;
+        font-size: 21px;
+        margin-left: 13%;
+        width: 100%;
+    }
+    .myCard .profile_position{
+       
+        margin-left: 12.8%;
+        width: 100%;
+        font-size: 15px;
+    }
+    .myCard .profile_contact{
+        margin-top: 8%;
+        padding: 8px;
+        width: 100%;
+        font-size: 15px;
+        margin-left: 12.5%;
+    
+    }
+    .myCard .profile_links{
+        margin-left: 17% !important;
+    }
+    .myCard .profile_links a i{
+        margin-top: 16%;
+        font-size: 20px;
+    }
+    .myCard .btn{
+        margin-top: 12%;
+        margin-left: 11%;
+        width: 100%;
+        font-size: 18px;
+    
+    }
+       .about {
+        width: 46.8% !important;
+        height: 41.5vh;
+        font-size: 18px;
+        top: 27.8%;
+        left: 39.4%;
+    }
+     .about p{
+        font-size: 21px;
+     }
+  }
+  @media only screen and (min-width: 768px) and (max-width:798px){
+    .myCard{
+        margin-top: 5.9% !important;
+        top: 4% !important;
+        left: 37.2% !important;
     }
   }
   @media only screen and (min-width: 768px) and (max-width:821px){
     .nav-link {
-        width: 24%;
-        padding-left: 1.5% !important;
+        width: 26%;
+        padding: 2.2% !important;
     } 
     .navbar-collapse{
-        margin-top: 2%;
+        margin-top: 4%;
         margin-left: -4.1%;
     }
     .about_img{
@@ -681,6 +839,59 @@ textarea {
     height: 54vh;
    
    }
+   .myCard{
+    margin-top: 5.9%;
+    top: 4%;
+    left: 40.9%;
+}
+.myCard img {
+    height: 150px;
+    width: 150px;
+}
+.myCard .profile_name{
+    margin-top: 10%;
+    font-size: 21px;
+    margin-left: 13%;
+    width: 100%;
+}
+.myCard .profile_position{
+   
+    margin-left: 12.8%;
+    width: 100%;
+    font-size: 15px;
+}
+.myCard .profile_contact{
+    margin-top: 8%;
+    padding: 8px;
+    width: 100%;
+    font-size: 15px;
+    margin-left: 12.5%;
+
+}
+.myCard .profile_links{
+    margin-left: 17% !important;
+}
+.myCard .profile_links a i{
+    margin-top: 16%;
+    font-size: 20px;
+}
+.myCard .btn{
+    margin-top: 16%;
+    margin-left: 11%;
+    width: 100%;
+    font-size: 18px;
+
+}
+   .about {
+    width: 62.2% !important;
+    height: 33.8vh;
+    font-size: 18px;
+    top: 30.9%;
+    left: 21.4%;
+}
+ .about p{
+    font-size: 21px;
+ }
    .react_img{
     margin-left: -12% !important;
    }
@@ -688,11 +899,17 @@ textarea {
     margin-left: -15% !important;
    }
   }
-
+  @media only screen and (min-width: 946px) and (max-width:991px){
+    .myCard{
+        margin-top: 5.9% !important;
+        top: 25% !important;
+        left: 12.5% !important;
+    }
+  }
   @media only screen and (min-width: 822px) and (max-width:991px){
     .nav-link {
-        width: 21%;
-        padding: 5px !important;
+        width: 26%;
+        padding: 1.2% !important;
 
     } 
     .navbar-toggler{
@@ -705,30 +922,87 @@ textarea {
     .nav_about .container-fluid>.row{
         margin-top: 4% !important;
     }
+   
     .about_img{
         position: absolute;
-        left: 20%;
-        width: 65% !important;
-        padding: 0 !important;
+        left: 21%;
+        width: 67% !important;
+        padding: 43px !important;
     }
     .about_img img{
-        height: 66vh;
-        width: 118%;
-        margin-top: 15%;
-        margin-left: 4.5%;
+        height: 56vh;
+        width: 121%;
+        margin-top: 23%;
+        margin-left: 7.5%;
     }
     .phone_img{
-     width: 25% !important;
-     margin-top: 9% !important;
-    margin-left: 3%;
-    padding: 1% !important;
+        width: 25% !important;
+        margin-top: 15% !important;
+        padding: 0 !important;
    
     }
    .phone_img img{
-    margin-left: -40%;
+    margin-left: -75%;
     height: 54vh;
    
    }
+
+   .myCard{
+    margin-top: 5.9%;
+    top: 25%;
+    left: 14.1%;
+}
+.myCard img {
+    height: 150px;
+    width: 150px;
+}
+.myCard .profile_name{
+    margin-top: 10%;
+    font-size: 21px;
+    margin-left: -36.5%;
+    width: 100%;
+}
+.myCard .profile_position{
+   
+    margin-left: -36.5%;
+    width: 100%;
+    font-size: 15px;
+}
+.myCard .profile_contact{
+    margin-top: 8%;
+    padding: 8px;
+    width: 100%;
+    font-size: 15px;
+    margin-left:-36.5%;
+
+}
+.myCard .profile_links{
+    margin-left: -78.5% !important;
+    margin-top: -11%;
+}
+.myCard .profile_links a i{
+    margin-top: 16%;
+    font-size: 20px;
+}
+.myCard .btn{
+    margin-top: 16%;
+    margin-left: -72.5%;
+    width: 100%;
+    font-size: 18px;
+
+}
+   .about {
+    width: 65.3% !important;
+    height: 33.8vh;
+    font-size: 18px;
+    top: 27.8%;
+    left: 32.9%;
+
+}
+ .about p{
+    font-size: 21px;
+ }
+   
    .react_img{
     margin-left: -12% !important;
    }
@@ -737,15 +1011,50 @@ textarea {
    }
   }
 
+  @media only screen and (min-width: 630px) and (max-width:662px){
+    .myCard{
+        margin-top: 5.9% !important;
+        top: 9% !important;
+        left: 40.2% !important;
+    }
+  }
+  @media only screen and (min-width: 662px) and (max-width:692px){
+    .myCard{
+        margin-top: 5.9% !important;
+        top: 9% !important;
+        left: 41.2% !important;
+    }
+  }
+  @media only screen and (min-width: 693px) and (max-width:722px){
+    .myCard{
+        margin-top: 5.9% !important;
+        top: 9% !important;
+        left: 42% !important;
+    }
+  }
+  @media only screen and (min-width: 723px) and (max-width:767px){
+    .myCard{
+        margin-top: 5.9% !important;
+        top: 9% !important;
+        left: 42.4% !important;
+    }
+  }
   
 @media only screen and (min-width: 576px) and (max-width:767px){
+    .navbar{
+        margin-left:-6% !important
+    }
     .nav-link {
         width: 24%;
         padding-left: 1.5% !important;
     } 
     .navbar-collapse{
         margin-top: 2%;
-        margin-left: -4.1%;
+        margin-left: -1.1%;
+    }
+   
+    .navbar-toggler{
+        margin-left: 4.4%;
     }
     .about_img{
         width: 100% !important;
@@ -764,14 +1073,57 @@ textarea {
    
     }
    .phone_img img{
-    width: 92%;
-    padding-left: 28%;
-    margin-top: -19%;
-    margin-left: -8%;
+    width: 90%;
+    /* padding-left: 28%; */
+    margin-top: -21%;
+    margin-left:7.8%;
     height: 48vh;
     position: relative;
    
    }
+   .myCard{
+    margin-top: 5.9%;
+    top: 9%;
+    left: 39.2%;
+}
+.myCard img {
+    height: 100px;
+    width: 100px;
+}
+.myCard .profile_name{
+    margin-top: 2%;
+    font-size: 17px;
+}
+.myCard .profile_position{
+   
+    margin-left: -1.5%;
+}
+.myCard .profile_contact{
+    margin-top: 6%;
+    padding: 4px;
+    width: 99%;
+    font-size: 12px;
+
+}
+.myCard .profile_links a i{
+    margin-top: 10%;
+}
+.myCard .btn{
+    margin-top: 12%;
+    margin-left: 2%;
+    width: 100%;
+    font-size: 14px;
+
+}
+   .about {
+    width: 60% !important;
+    height: 33.8vh;
+    top: 51.2%;
+    left: 19.3%;
+}
+ .about p{
+    font-size: 15px;
+ }
 
     .progress{
         margin-bottom: 3%;
@@ -833,7 +1185,27 @@ textarea {
    
 }
 
-
+@media only screen and (min-width: 420px) and (max-width:467px){
+    .myCard{
+        margin-top: 5.9% !important;
+        top: 12% !important;
+        left: 34.8% !important;
+    }
+  }
+  @media only screen and (min-width: 468px) and (max-width:512px){
+    .myCard{
+        margin-top: 5.9% !important;
+        top: 13% !important;
+        left: 37% !important;
+    }
+  }
+  @media only screen and (min-width: 519px) and (max-width:575px){
+    .myCard{
+        margin-top: 5.9% !important;
+        top: 13% !important;
+        left: 38.4% !important;
+    }
+  }
 
 @media only screen and (min-width: 390px) and (max-width:575px){
 
@@ -846,8 +1218,11 @@ textarea {
     } 
     .navbar-collapse{
         margin-top: 2%;
-        margin-left: -7.4%;
+        margin-left: -10.4%;
         font-size: 15px;
+    }
+    .navbar-toggler{
+        margin-left: -1.4%;
     }
 
     .about_img{
@@ -864,20 +1239,20 @@ textarea {
     .phone_img{
         margin-top: 6% !important;
         width: 100% !important;
-        padding: 6% !important;
+        padding: 2% !important;
    
     }
    .phone_img img{
-    width: 113%;
-    margin-left: -2%;
-    margin-top: -50px !important;
-    height: 45vh;
+    width: 112%;
+    margin-left: -3.5%;
+    margin-top: -55px !important;
+    height: 44vh;
    
    }
    .myCard{
     margin-top: 5.9%;
-    top: 14%;
-    left: 34.5%;
+    top: 12%;
+    left: 33.2%;
 }
 .myCard img {
     height: 80px;
@@ -912,7 +1287,7 @@ textarea {
     width: 60.5% !important;
     height: 26.8vh;
     font-size: 18px;
-    top: 53.8%;
+    top: 48.5%;
     left: 18.5%;
 }
  .about p{
@@ -939,11 +1314,11 @@ textarea {
     }
     
     .skill_img {
-        margin: 0 0.2% 0 36.7% !important;
+        margin: 0 0% 0 31.7% !important;
         height: 65px;
     }
     .skills>div>h1{
-        margin-left: 19% !important;
+        margin-left: 20.5% !important;
         color: white !important;
     }
     
@@ -952,16 +1327,16 @@ textarea {
         margin: 10px 0 10px;
     }
     .react_img{
-        margin-left: 19% !important;
+        margin-left: 9% !important;
     }
     .node_img{
-        margin-left: 17% !important;
+        margin-left: 6% !important;
     }
     .bootstrap_img{
-        margin-left: 30% !important;
+        margin-left: 26% !important;
     }
     .java_img{
-        margin-left: 41% !important;
+        margin-left: 37% !important;
     }
 
     .timeline::after {
@@ -988,26 +1363,42 @@ textarea {
     }
 
     .project_img {
-        margin: 0px 17.5% !important;
-        width: 64%;
+        margin: 0px 14.5% !important;
+        width: 72%;
         height: 41vh;
         background-color: blue;
     }
-    .certificate_container {
-        margin: 0px 17% !important;
-        width: 64%;
+   
+    .project_img .source_btn {
+        width: 39%;
+        left: 9%;
+        top: 44%;
     }
+    .project_img .live_btn {
+        width: 39%;
+        left: 52%;
+        top: 44%;
+    }
+    .certificate_container {
+        margin: 0px 14.5% !important;
+        width: 72%;
+    }
+    .front{
+        padding-top: 58%;
+       }
 
    .owl-nav .owl-prev {
-    left: 33px;
+    left: 36px;
     top: 44%;
   
    }
    .owl-nav .owl-next {
-    right: 44px;
+    right: 31px;
     top: 44%;
 
    }
+
+  
 
 
  
