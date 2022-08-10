@@ -614,6 +614,29 @@ textarea {
     cursor: pointer;
     padding: 6px;
   }
+
+  @media only screen and (min-width: 1350px) and (max-width:1440px){
+    .myCard{
+        margin-top: 16.4% !important;
+        top: 2% !important;
+        left: 15.6% !important;
+    
+    }
+    .about_img img {
+        margin-top: 4% !important;
+        height: 70vh;
+    }
+    .about {
+        width: 38.9% !important;
+        height: 41.8vh !important;
+        font-size: 18px !important;
+        top: 24.8% !important;
+        left: 46.8% !important;
+    }
+    .about p{
+        font-size: 21px;
+     }
+  }
   @media only screen and (min-width: 1120px) and (max-width:1349px){
     .phone_img img {
         margin-left: -20%;
@@ -696,11 +719,11 @@ textarea {
 @media only screen and (min-width: 1270px) and (max-width:1349px){
     .myCard{
       
-        left: 9.8% !important;
+        left: 8.8% !important;
     }
     .about {
         
-        top: 26% !important;
+        top: 27.2% !important;
         left: 47.5% !important;
         
     }
